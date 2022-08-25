@@ -15,7 +15,8 @@ function save() {
 
 
 function reset() {
-    count = 0  
+    count = 0
+    countEl.textContent = count
 }
 
 function resetEntry(){
